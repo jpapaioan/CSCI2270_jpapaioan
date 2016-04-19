@@ -1,2 +1,4 @@
 # CSCI2270_jpapaioan
 Final Project for CSCI 2270
+
+This program will be a road trip planner which comes pre-supplied with an extensive graph of nodes of locations throughout the United States. The user will supply a starting point and final destination, with some sort of location ID, possibly GPS coordinates. A nearest neighbor search algorithm will determine the closest nodes to the starting and final destinations and construct a shortest path route to plan the road trip. Additional features will include various constraints to the path that can be supplied by the user dpeending on their own interests like whether their path should contain locations with tourist attractions, gas stations, motels, etc. The paths will contain information regarding total distance and an estimation to how long the trip will take, with user inputted data like average number of hours of driving per day.
