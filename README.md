@@ -6,6 +6,13 @@ This program is a road trip planner facilitated by a graph of nodes of locations
 
 How to Run:
 There are three txt files provided that contain the cities, adjacency matrix, and GPS coordinates. You need to enter all three from the command line in order for the program to execute properly.
+The program will ask for a starting and final destination, you can print the graph and choose two cities from the graph or put in your own. If you choose to use your own, it will check that it’s actually within the contiguous United States, and it will prompt the user for GPS coordinates. I suggest simply googling “XXXX gps coordinates” and then entering it in the format: latitude, longitude
+You need to use a comma to separate the latitude and longitude, and also just keep it in degrees complete with decimals, do not include the degree symbol or any qualifier like N, W.
+
+Here is an example for Sacramento:
+32.5, 121.5
+
+To run the program, simply include the three provided txt files in this order
 
 Example:
 ./roadtrip cities.txt ad_list.txt ps.txt
